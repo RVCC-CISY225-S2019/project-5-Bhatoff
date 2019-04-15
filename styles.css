@@ -1,0 +1,146 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+
+}
+
+.content {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100%;*/
+}
+
+.header {
+  /*height: 25vw;*/
+  /*max-height: 150px;*/
+  /*width: 100%;*/
+  background-color: #0F1630;
+  height: 3.5em;
+  padding: 1em;
+}
+
+img.logo {
+  max-height: 100%;
+  width: 3rem;
+  float: left;
+}
+
+.page-title {
+  color: #ffffff;
+  float: left;
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+
+@media screen and (max-width: 24rem) {
+  .big-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .big-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 34rem) {
+  .header-content {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 33rem) {
+  .header-content {
+    padding-top: .5rem;
+  }
+}
+
+.hero {
+  padding: 4em;
+  max-width: 100%;
+  background-color: #012249;
+  color: white;
+}
+
+img.my-picture {
+  display: block;
+  margin: 0 auto 2em;
+  max-width: 100%;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.iama {
+  max-width: 100%;
+  color: #000000;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.my-info {
+  max-width: 100%;
+  color: #000000;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0px auto 3em;
+}
+
+.my-info:last-of-type {
+  margin: 0px;
+}
+
+.my-name {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.my-location {
+    color: rgb(255,255,255);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-me {
+  padding: 2.5em;
+}
+
+.about-content {
+    border-left: 1px solid #DFEAF1;
+    padding-left: 3rem;
+}
+.footer {
+  color:#000000;
+  font-style: italic;
+}
+fieldset{
+ border: 2px groove;
+ display: block;
+ margin-left: auto;    
+}
+legend{
+ width: auto;   
+ height: auto;   
+}
+container{
+ display: block;
+ position: relative;
+ cursor: pointer;
+}
+input[type="radio"]{
+ z-index: 9999;
+}
+.overlay{
+    display: inline-block;
+}
+input[type="radio"]:checked + .overlay {
+    background-color: black;
+}
